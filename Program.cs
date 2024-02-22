@@ -152,7 +152,7 @@ static List<DadosExportacao> CarregarECalcular(string caminhoArquivo)
 
 static void SalvarDados(List<DadosExportacao> dadosExportacao)
 {
-    string connectionString = "Host=silly.db.elephantsql.com;Username=obqsthil;Password=rt8Q20TgMc8QSx2tlTDiy4wbOcgDgh6y;Database=obqsthil";
+    string connectionString = "Host=host;Username=usuario;Password=senha;Database=banco";
 
     using (var conn = new NpgsqlConnection(connectionString))
     {
